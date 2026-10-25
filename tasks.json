@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run StuDyEaSe",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"website edu mirror 2\\app.py"
+			],
+			"isBackground": true,
+			"problemMatcher": [
+				"$python"
+			]
+		}
+	]
+}
